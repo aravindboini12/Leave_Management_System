@@ -1,0 +1,25 @@
+.myleaves-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.myleaves-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.myleaves-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.myleaves-container th, .myleaves-container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.myleaves-container thead {
+  background-color: #f2f2f2;
+}

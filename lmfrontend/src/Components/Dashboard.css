@@ -1,0 +1,83 @@
+/* Table styling */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+/* Buttons */
+.btn-approve, .btn-reject {
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: white;
+}
+
+.btn-approve {
+  background-color: #4CAF50;
+}
+
+.btn-approve:hover:enabled {
+  background-color: #45a049;
+}
+
+.btn-reject {
+  background-color: #f44336;
+}
+
+.btn-reject:hover:enabled {
+  background-color: #da190b;
+}
+
+.btn-disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.summary-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.summary-card {
+  min-width: 120px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.summary-card:hover {
+  transform: translateY(-3px);
+}
+
+.summary-card h4 {
+  margin: 0 0 5px 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.summary-card p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #007BFF;
+}
+
