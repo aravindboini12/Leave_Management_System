@@ -19,5 +19,5 @@ Built with:
 /backend ← Spring Boot
 /frontend ← React (Vite)
 
-for any types of queries contact me here aravindboini1225@gmail.com, https://www.linkedin.com/in/aravindboini
+for any types of queries contact me here aravindboini1225@gmail.com, www.linkedin.com/in/aravindboini
 happy coding!!
